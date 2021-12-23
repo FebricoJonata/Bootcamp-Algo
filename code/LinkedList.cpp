@@ -36,24 +36,23 @@ void pushHead(int value){
 
 }
 
-void popTail(){
-   
+// void popTail(){
 
-    If(head == tail){
-        free(head);
-        head = tail = NULL;
-    }else{ // if LL has > 1 Node
+//     if(head == tail){
+//         free(head);
+//         head = tail = NULL;
+//     }else{ // if LL has > 1 Node
 
-        Node *curr = head;
-        while(curr->next != tail){
-            curr * curr->next;
-        }
+//         Node *curr = head;
+//         while(curr->next != tail){
+//             curr* curr->next;
+//         }
 
-        Node *toRemove = tail;
-        free(toRemove);
-        toRemove = NULL;
-    }
-}
+//         Node *toRemove = tail;
+//         free(toRemove);
+//         toRemove = NULL;
+//     }
+// }
 
 
 void printLL() {
